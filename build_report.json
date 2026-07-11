@@ -1,0 +1,106 @@
+{
+  "built_at": "2026-07-11T15:57:04.654559+00:00",
+  "converter": "AdGuard SafariConverterLib (ConverterTool)",
+  "safari_version": "26.0",
+  "max_rules_per_file": 145000,
+  "sources": [
+    {
+      "key": "korean",
+      "title": "List-KR filters list (standard, AdGuard)",
+      "license": "GPL-3.0-only",
+      "output": "blocker_korean.json",
+      "source_url_used": "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-AdGuard.txt",
+      "source_rule_lines": 4151,
+      "converter_stats": {
+        "sourceRulesCount": 4290,
+        "sourceSafariCompatibleRulesCount": 3656,
+        "safariRulesCount": 2616,
+        "converterDiscardedForLimit": 0,
+        "errorsCount": 211
+      },
+      "skipped_unsupported": 634,
+      "final_rule_count": 2616,
+      "cut": {
+        "cut": false,
+        "total": 2616,
+        "kept": 2616
+      }
+    },
+    {
+      "key": "ads",
+      "title": "EasyList",
+      "license": "GPL-3.0-or-later AND CC-BY-SA-3.0 (dual)",
+      "output": "blocker_ads.json",
+      "source_url_used": "https://easylist.to/easylist/easylist.txt",
+      "source_rule_lines": 79244,
+      "converter_stats": {
+        "sourceRulesCount": 79227,
+        "sourceSafariCompatibleRulesCount": 78945,
+        "safariRulesCount": 61103,
+        "converterDiscardedForLimit": 0,
+        "errorsCount": 39
+      },
+      "skipped_unsupported": 282,
+      "final_rule_count": 61103,
+      "cut": {
+        "cut": false,
+        "total": 61103,
+        "kept": 61103
+      }
+    },
+    {
+      "key": "privacy",
+      "title": "EasyPrivacy",
+      "license": "GPL-3.0-or-later AND CC-BY-SA-3.0 (dual)",
+      "output": "blocker_privacy.json",
+      "source_url_used": "https://easylist.to/easylist/easyprivacy.txt",
+      "source_rule_lines": 55525,
+      "converter_stats": {
+        "sourceRulesCount": 55498,
+        "sourceSafariCompatibleRulesCount": 55465,
+        "safariRulesCount": 55517,
+        "converterDiscardedForLimit": 0,
+        "errorsCount": 35
+      },
+      "skipped_unsupported": 33,
+      "final_rule_count": 55517,
+      "cut": {
+        "cut": false,
+        "total": 55517,
+        "kept": 55517
+      }
+    },
+    {
+      "key": "annoyance",
+      "title": "Fanboy's Annoyance List",
+      "license": "GPL-3.0-or-later AND CC-BY-SA-3.0 (dual)",
+      "output": "blocker_annoyance.json",
+      "source_url_used": "https://easylist.to/easylist/fanboy-annoyance.txt",
+      "source_rule_lines": 48664,
+      "converter_stats": {
+        "sourceRulesCount": 48665,
+        "sourceSafariCompatibleRulesCount": 48286,
+        "safariRulesCount": 17174,
+        "converterDiscardedForLimit": 0,
+        "errorsCount": 0
+      },
+      "skipped_unsupported": 379,
+      "final_rule_count": 17174,
+      "cut": {
+        "cut": false,
+        "total": 17174,
+        "kept": 17174
+      }
+    },
+    {
+      "key": "custom",
+      "output": "blocker_custom.json",
+      "safariRulesCount": 1,
+      "cut": {
+        "cut": false,
+        "total": 1,
+        "kept": 1
+      }
+    }
+  ]
+}

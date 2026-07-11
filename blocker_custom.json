@@ -1,0 +1,10 @@
+[
+  {
+    "trigger": {
+      "url-filter": "^[^:]+://+([^:/]+\\.)?adzero-placeholder\\.invalid[/:]"
+    },
+    "action": {
+      "type": "block"
+    }
+  }
+]
