@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-11T15:57:04.654559+00:00",
+  "built_at": "2026-07-12T10:12:23.840381+00:00",
   "converter": "AdGuard SafariConverterLib (ConverterTool)",
   "safari_version": "26.0",
   "max_rules_per_file": 145000,
@@ -101,6 +101,21 @@
         "total": 1,
         "kept": 1
       }
+    },
+    {
+      "key": "korean_extra",
+      "title": "AdZero Extra Rules (merged into blocker_korean.json)",
+      "source_file": "adzero_extra_rules.txt",
+      "source_rule_lines": 23,
+      "converter_stats": {
+        "sourceRulesCount": 23,
+        "sourceSafariCompatibleRulesCount": 23,
+        "safariRulesCount": 16,
+        "errorsCount": 0
+      },
+      "extra_safari_rules": 16,
+      "appended_now": 3,
+      "korean_final_rule_count": 2632
     }
   ]
 }

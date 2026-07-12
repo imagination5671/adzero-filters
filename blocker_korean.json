@@ -26865,5 +26865,158 @@
     "action": {
       "type": "ignore-previous-rules"
     }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": [
+        "*hitomi.la"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": "[id^=\"__clb-spot_\"], .top-content iframe, .top-content img, .bottom-content iframe, .bottom-content img, .gGqYmh8TXjYaWaI8, .aGDCD27SKwNBiTl70A, .exo-content"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^[^:]+://+([^:/]+\\.)?ozmczezum\\.com[/:]"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^[^:]+://+([^:/]+\\.)?displayendpointstarring\\.com[/:]"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^[^:]+://+([^:/]+\\.)?mloearytfxebml\\.com[/:]"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^[^:]+://+([^:/]+\\.)?tyserving\\.com[/:]"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^[^:]+://+([^:/]+\\.)?a28bedd7c2\\.com[/:]"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^[^:]+://+([^:/]+\\.)?69b31e7623\\.com[/:]"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "\\/solid\\.gif\\?z=",
+      "if-domain": [
+        "*hitomi.la"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "\\/chicken\\.gif\\?z=",
+      "if-domain": [
+        "*hitomi.la"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "\\/whob\\.gif\\?z=",
+      "if-domain": [
+        "*hitomi.la"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "\\/adx\\/get\\/\\?id=",
+      "if-domain": [
+        "*hitomi.la"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "pid=__clb-spot",
+      "if-domain": [
+        "*hitomi.la"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "HR0cHM6Ly9oaXRvbWkubGEv",
+      "if-domain": [
+        "*hitomi.la"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^[^:]+://+([^:/]+\\.)?xanonmow\\.com[/:]"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^[^:]+://+([^:/]+\\.)?darnobedienceupscale\\.com[/:]"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "static/image/pn",
+      "if-domain": [
+        "*hitomi.la"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
   }
 ]
