@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-12T10:12:23.840381+00:00",
+  "built_at": "2026-07-12T23:10:04.379441+00:00",
   "converter": "AdGuard SafariConverterLib (ConverterTool)",
   "safari_version": "26.0",
   "max_rules_per_file": 145000,
@@ -16,7 +16,8 @@
         "sourceSafariCompatibleRulesCount": 3656,
         "safariRulesCount": 2616,
         "converterDiscardedForLimit": 0,
-        "errorsCount": 211
+        "errorsCount": 211,
+        "advancedRulesCount": 662
       },
       "skipped_unsupported": 634,
       "final_rule_count": 2616,
@@ -38,7 +39,8 @@
         "sourceSafariCompatibleRulesCount": 78945,
         "safariRulesCount": 61103,
         "converterDiscardedForLimit": 0,
-        "errorsCount": 39
+        "errorsCount": 39,
+        "advancedRulesCount": 454
       },
       "skipped_unsupported": 282,
       "final_rule_count": 61103,
@@ -60,7 +62,8 @@
         "sourceSafariCompatibleRulesCount": 55465,
         "safariRulesCount": 55517,
         "converterDiscardedForLimit": 0,
-        "errorsCount": 35
+        "errorsCount": 35,
+        "advancedRulesCount": 33
       },
       "skipped_unsupported": 33,
       "final_rule_count": 55517,
@@ -82,7 +85,8 @@
         "sourceSafariCompatibleRulesCount": 48286,
         "safariRulesCount": 17174,
         "converterDiscardedForLimit": 0,
-        "errorsCount": 0
+        "errorsCount": 0,
+        "advancedRulesCount": 392
       },
       "skipped_unsupported": 379,
       "final_rule_count": 17174,
@@ -100,6 +104,9 @@
         "cut": false,
         "total": 1,
         "kept": 1
+      },
+      "converter_stats": {
+        "advancedRulesCount": 0
       }
     },
     {
@@ -111,11 +118,34 @@
         "sourceRulesCount": 23,
         "sourceSafariCompatibleRulesCount": 23,
         "safariRulesCount": 16,
-        "errorsCount": 0
+        "errorsCount": 0,
+        "advancedRulesCount": 0
       },
       "extra_safari_rules": 16,
-      "appended_now": 3,
+      "appended_now": 0,
       "korean_final_rule_count": 2632
+    },
+    {
+      "key": "privacy_extra",
+      "title": "AdZero Privacy Extra Rules (merged into blocker_privacy.json)",
+      "source_file": "adzero_privacy_extra_rules.txt",
+      "source_rule_lines": 5,
+      "converter_stats": {
+        "sourceRulesCount": 5,
+        "sourceSafariCompatibleRulesCount": 5,
+        "safariRulesCount": 7,
+        "errorsCount": 0,
+        "advancedRulesCount": 0
+      },
+      "extra_safari_rules": 7,
+      "appended_now": 0,
+      "privacy_final_rule_count": 55524,
+      "supplement_output": "blocker_privacy_extra.json"
     }
-  ]
+  ],
+  "advanced_rules": {
+    "output": "advanced_rules.txt",
+    "count": 1531,
+    "bytes": 129172
+  }
 }

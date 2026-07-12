@@ -7,9 +7,10 @@
 |---|---|---|
 | `blocker_korean.json` | 한국 사이트 특화 | [List-KR](https://github.com/List-KR/List-KR) |
 | `blocker_ads.json` | 일반 광고 | [EasyList](https://easylist.to/) |
-| `blocker_privacy.json` | 추적기·분석 스크립트 | [EasyPrivacy](https://easylist.to/) |
+| `blocker_privacy.json` | 추적기·분석 스크립트 | [EasyPrivacy](https://easylist.to/) + AdZero 보충 규칙 |
 | `blocker_annoyance.json` | 쿠키 배너 등 방해 요소 | [Fanboy's Annoyance List](https://easylist.to/) |
 | `blocker_custom.json` | 앱 내 사용자 규칙 기본값 | AdZero |
+| `blocker_privacy_extra.json` | 오래된 원격 필터에도 병합되는 안전 보충 규칙 | AdZero |
 
 ## 라이선스 및 저작자 표시
 
