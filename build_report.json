@@ -1,48 +1,39 @@
 {
-  "built_at": "2026-07-12T23:10:04.379441+00:00",
-  "converter": "AdGuard SafariConverterLib (ConverterTool)",
+  "built_at": "2026-07-16T09:41:27.844660+00:00",
+  "pipeline": "AdZero prebuilt Safari-rule importer",
   "safari_version": "26.0",
   "max_rules_per_file": 145000,
   "sources": [
     {
       "key": "korean",
-      "title": "List-KR filters list (standard, AdGuard)",
-      "license": "GPL-3.0-only",
+      "title": "YousList",
+      "license": "CC-BY-4.0",
       "output": "blocker_korean.json",
-      "source_url_used": "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-AdGuard.txt",
-      "source_rule_lines": 4151,
-      "converter_stats": {
-        "sourceRulesCount": 4290,
-        "sourceSafariCompatibleRulesCount": 3656,
-        "safariRulesCount": 2616,
-        "converterDiscardedForLimit": 0,
-        "errorsCount": 211,
-        "advancedRulesCount": 662
+      "source_url_used": "https://raw.githubusercontent.com/yous/YousList/master/Rules.1blockpkg.json",
+      "format": "safari-1blocker-package",
+      "import_stats": {
+        "input_rule_count": 3810,
+        "output_rule_count": 3810,
+        "duplicate_count": 0,
+        "invalid_count": 0
       },
-      "skipped_unsupported": 634,
-      "final_rule_count": 2616,
+      "final_rule_count": 3810,
       "cut": {
         "cut": false,
-        "total": 2616,
-        "kept": 2616
+        "total": 3810,
+        "kept": 3810
       }
     },
     {
       "key": "ads",
       "title": "EasyList",
-      "license": "GPL-3.0-or-later AND CC-BY-SA-3.0 (dual)",
+      "license": "CC-BY-SA-3.0-or-later",
       "output": "blocker_ads.json",
-      "source_url_used": "https://easylist.to/easylist/easylist.txt",
-      "source_rule_lines": 79244,
-      "converter_stats": {
-        "sourceRulesCount": 79227,
-        "sourceSafariCompatibleRulesCount": 78945,
-        "safariRulesCount": 61103,
-        "converterDiscardedForLimit": 0,
-        "errorsCount": 39,
-        "advancedRulesCount": 454
-      },
-      "skipped_unsupported": 282,
+      "source_url_used": "https://raw.githubusercontent.com/imagination5671/adzero-filters/main/blocker_ads.json",
+      "format": "safari-content-blocker",
+      "upstream_homepage": "https://easylist.to/",
+      "upstream_license_url": "https://easylist.to/pages/licence.html",
+      "imported_rule_count": 61103,
       "final_rule_count": 61103,
       "cut": {
         "cut": false,
@@ -53,42 +44,30 @@
     {
       "key": "privacy",
       "title": "EasyPrivacy",
-      "license": "GPL-3.0-or-later AND CC-BY-SA-3.0 (dual)",
+      "license": "CC-BY-SA-3.0-or-later",
       "output": "blocker_privacy.json",
-      "source_url_used": "https://easylist.to/easylist/easyprivacy.txt",
-      "source_rule_lines": 55525,
-      "converter_stats": {
-        "sourceRulesCount": 55498,
-        "sourceSafariCompatibleRulesCount": 55465,
-        "safariRulesCount": 55517,
-        "converterDiscardedForLimit": 0,
-        "errorsCount": 35,
-        "advancedRulesCount": 33
-      },
-      "skipped_unsupported": 33,
-      "final_rule_count": 55517,
+      "source_url_used": "https://raw.githubusercontent.com/imagination5671/adzero-filters/main/blocker_privacy.json",
+      "format": "safari-content-blocker",
+      "upstream_homepage": "https://easylist.to/",
+      "upstream_license_url": "https://easylist.to/pages/licence.html",
+      "imported_rule_count": 55524,
+      "final_rule_count": 55524,
       "cut": {
         "cut": false,
-        "total": 55517,
-        "kept": 55517
+        "total": 55524,
+        "kept": 55524
       }
     },
     {
       "key": "annoyance",
       "title": "Fanboy's Annoyance List",
-      "license": "GPL-3.0-or-later AND CC-BY-SA-3.0 (dual)",
+      "license": "CC-BY-SA-3.0-or-later",
       "output": "blocker_annoyance.json",
-      "source_url_used": "https://easylist.to/easylist/fanboy-annoyance.txt",
-      "source_rule_lines": 48664,
-      "converter_stats": {
-        "sourceRulesCount": 48665,
-        "sourceSafariCompatibleRulesCount": 48286,
-        "safariRulesCount": 17174,
-        "converterDiscardedForLimit": 0,
-        "errorsCount": 0,
-        "advancedRulesCount": 392
-      },
-      "skipped_unsupported": 379,
+      "source_url_used": "https://raw.githubusercontent.com/imagination5671/adzero-filters/main/blocker_annoyance.json",
+      "format": "safari-content-blocker",
+      "upstream_homepage": "https://easylist.to/",
+      "upstream_license_url": "https://easylist.to/pages/licence.html",
+      "imported_rule_count": 17174,
       "final_rule_count": 17174,
       "cut": {
         "cut": false,
@@ -97,55 +76,36 @@
       }
     },
     {
+      "key": "korean_extra",
+      "title": "AdZero Extra Rules (merged into blocker_korean.json)",
+      "license": "AdZero-owned",
+      "source_file": "adzero_extra_rules.json",
+      "source_rule_count": 16,
+      "extra_safari_rules": 16,
+      "appended_now": 16,
+      "korean_final_rule_count": 3826
+    },
+    {
+      "key": "privacy_extra",
+      "title": "AdZero Privacy Extra Rules (merged into blocker_privacy.json)",
+      "license": "AdZero-owned",
+      "source_file": "adzero_privacy_extra_rules.json",
+      "source_rule_count": 7,
+      "extra_safari_rules": 7,
+      "appended_now": 0,
+      "privacy_final_rule_count": 55524,
+      "supplement_output": "blocker_privacy_extra.json"
+    },
+    {
       "key": "custom",
+      "license": "AdZero-owned",
       "output": "blocker_custom.json",
       "safariRulesCount": 1,
       "cut": {
         "cut": false,
         "total": 1,
         "kept": 1
-      },
-      "converter_stats": {
-        "advancedRulesCount": 0
       }
-    },
-    {
-      "key": "korean_extra",
-      "title": "AdZero Extra Rules (merged into blocker_korean.json)",
-      "source_file": "adzero_extra_rules.txt",
-      "source_rule_lines": 23,
-      "converter_stats": {
-        "sourceRulesCount": 23,
-        "sourceSafariCompatibleRulesCount": 23,
-        "safariRulesCount": 16,
-        "errorsCount": 0,
-        "advancedRulesCount": 0
-      },
-      "extra_safari_rules": 16,
-      "appended_now": 0,
-      "korean_final_rule_count": 2632
-    },
-    {
-      "key": "privacy_extra",
-      "title": "AdZero Privacy Extra Rules (merged into blocker_privacy.json)",
-      "source_file": "adzero_privacy_extra_rules.txt",
-      "source_rule_lines": 5,
-      "converter_stats": {
-        "sourceRulesCount": 5,
-        "sourceSafariCompatibleRulesCount": 5,
-        "safariRulesCount": 7,
-        "errorsCount": 0,
-        "advancedRulesCount": 0
-      },
-      "extra_safari_rules": 7,
-      "appended_now": 0,
-      "privacy_final_rule_count": 55524,
-      "supplement_output": "blocker_privacy_extra.json"
     }
-  ],
-  "advanced_rules": {
-    "output": "advanced_rules.txt",
-    "count": 1531,
-    "bytes": 129172
-  }
+  ]
 }
